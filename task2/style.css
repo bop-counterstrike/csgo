@@ -1,0 +1,129 @@
+header {
+   background-color: rgb(152, 223, 151);
+   padding: 0;
+   margin: 0;
+}
+body, 
+html {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(bg.jpg);
+}
+ul{
+    list-style: none;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color: aliceblue;
+    padding: 20px;
+}
+a:hover{
+    color: rgb(66, 142, 86);
+}
+h1{
+    color: rgb(70, 109, 68);
+    font-size: 50px;
+    margin-left: 50px;
+}
+.chips{
+    padding: 20px;
+    display: block;
+}
+img.chips{
+    border-radius: 50px;
+}
+form{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+footer{
+    background-color: rgb(152, 223, 151);
+    height: 100px;
+}
+
+.footbal{
+    color:aliceblue;
+    font-size: 20px;
+    margin-left: 100px;
+    margin: 0px;
+    padding: 10px;
+}
+section{
+    width: 60%;
+    margin-left: 40px;
+}
+@media (max-width:1200px) {
+    section{
+        width: 90%;
+    }
+}
+@media (max-width:900px) {
+    a{
+        font-size: 25px;
+        padding: 10px;
+    }
+    [src="racoon.png"]{
+        width: 60px;
+    }
+    h1{
+        font-size: 40px;
+        margin-left: 40px;
+    }
+    section{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .chips{
+        display: block;
+    }
+    [src="lays.jpg"]{
+        width: 180px;
+    }
+    
+}
+@media (max-width:600px) {
+    a{
+        font-size: 23px;
+        padding: 5px;
+    }
+}
+@media (max-width:500px) {
+    a{
+        font-size: 20px;
+        padding: 4px;
+    }
+    [src="racoon.png"]{
+        width: 50px;
+    }
+    h1{
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    section{
+        width: 90%;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    [src="lays.jpg"]{
+        width: 150px;
+    }
+    .chips{
+        display: block;
+    }
+    .footbal{
+        font-size: 15px;
+        padding: 4px;
+    }
+    form{
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    input{
+        margin: 5px;
+    }
+}
